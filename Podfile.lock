@@ -1,0 +1,16 @@
+PODS:
+  - DynamicJSON (2.0.2)
+
+DEPENDENCIES:
+  - DynamicJSON (~> 2.0.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DynamicJSON
+
+SPEC CHECKSUMS:
+  DynamicJSON: fc0c5a82980ff8aa956156f04d84fcdb2822e875
+
+PODFILE CHECKSUM: 861bc1706fa1f32d49cdbe71fa41568179f2ee19
+
+COCOAPODS: 1.5.3
