@@ -1,16 +1,26 @@
 PODS:
+  - DropDown (2.3.4)
   - DynamicJSON (2.0.2)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
 
 DEPENDENCIES:
+  - DropDown (= 2.3.4)
   - DynamicJSON (~> 2.0.2)
+  - NVActivityIndicatorView (~> 4.7)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - DropDown
     - DynamicJSON
+    - NVActivityIndicatorView
 
 SPEC CHECKSUMS:
+  DropDown: f225ff0fd09dde064d17aa03db7e4d4e4ff40b6b
   DynamicJSON: fc0c5a82980ff8aa956156f04d84fcdb2822e875
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
 
-PODFILE CHECKSUM: 861bc1706fa1f32d49cdbe71fa41568179f2ee19
+PODFILE CHECKSUM: 29e5b1268d6283fb40ec57904055baad9fbf2cf0
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.0

@@ -13,7 +13,6 @@ class CategoryCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var categoryName: UILabel!
     @IBOutlet weak var selectedView: UIView!
     
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -6,7 +6,10 @@ target 'SAT' do
 use_frameworks!
 
 # Pods for SAT
+pod 'DropDown', '2.3.4'
 pod 'DynamicJSON', '~> 2.0.2'
+pod 'NVActivityIndicatorView', '~> 4.7'
+
 
 target 'SATTests' do
 inherit! :search_paths

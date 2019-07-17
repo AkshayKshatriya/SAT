@@ -3,15 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		6236C961C27D50706B0674C6 /* Pods_SATUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E342CDD7D70F5FC72076D65 /* Pods_SATUITests.framework */; };
+		BA14D31422DE2F19008C7B4D /* ProductDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14D31122DE2F18008C7B4D /* ProductDetailController.swift */; };
+		BA14D31522DE2F19008C7B4D /* ProductDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14D31222DE2F18008C7B4D /* ProductDetailViewModel.swift */; };
+		BA14D31622DE2F19008C7B4D /* ViewController+tableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA14D31322DE2F18008C7B4D /* ViewController+tableview.swift */; };
 		BA7B659922D794A400A12F52 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BA7B659822D794A400A12F52 /* Podfile */; };
 		BA7B659B22D79C4500A12F52 /* HTTPMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B659A22D79C4500A12F52 /* HTTPMethods.swift */; };
 		BA7B659D22D8D42000A12F52 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B659C22D8D42000A12F52 /* CategoryCollectionViewCell.swift */; };
 		BA7B659F22D8D43300A12F52 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA7B659E22D8D43300A12F52 /* CategoryCollectionViewCell.xib */; };
+		BAEE39F422DEDC11008E3879 /* ViewController+collectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEE39F322DEDC10008E3879 /* ViewController+collectionView.swift */; };
+		BAEE39FB22DEDD69008E3879 /* UIColor+AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEE39FA22DEDD69008E3879 /* UIColor+AppTheme.swift */; };
 		BAF4276522D790E500A301CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4276422D790E500A301CB /* AppDelegate.swift */; };
 		BAF4276722D790E500A301CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4276622D790E500A301CB /* ViewController.swift */; };
 		BAF4276A22D790E500A301CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF4276822D790E500A301CB /* Main.storyboard */; };
@@ -19,6 +24,9 @@
 		BAF4276F22D790E700A301CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF4276D22D790E700A301CB /* LaunchScreen.storyboard */; };
 		BAF4277A22D790E700A301CB /* SATTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4277922D790E700A301CB /* SATTests.swift */; };
 		BAF4278522D790E700A301CB /* SATUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF4278422D790E700A301CB /* SATUITests.swift */; };
+		BAF51ED022DC1C8700F0F9AB /* ProductCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF51ECE22DC1C8700F0F9AB /* ProductCollectionCell.swift */; };
+		BAF51ED122DC1C8700F0F9AB /* ProductCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF51ECF22DC1C8700F0F9AB /* ProductCollectionCell.xib */; };
+		BAF51ED322DC201800F0F9AB /* BrowseProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF51ED222DC201800F0F9AB /* BrowseProductController.swift */; };
 		D2C5817BF904C8D5E00AD7BD /* Pods_SAT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4436B0F22815E4B4FB687F51 /* Pods_SAT.framework */; };
 		DC55A2E42F4F538055DF3D08 /* Pods_SATTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EE402BE675AE02046B3C23 /* Pods_SATTests.framework */; };
 /* End PBXBuildFile section */
@@ -49,10 +57,15 @@
 		4436B0F22815E4B4FB687F51 /* Pods_SAT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B9C500E4F4E23CB1425006F /* Pods-SATUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SATUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SATUITests/Pods-SATUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9DA4BAE7A9EC944230187106 /* Pods-SATTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SATTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SATTests/Pods-SATTests.release.xcconfig"; sourceTree = "<group>"; };
-		BA7B659822D794A400A12F52 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		BA14D31122DE2F18008C7B4D /* ProductDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailController.swift; sourceTree = "<group>"; };
+		BA14D31222DE2F18008C7B4D /* ProductDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetailViewModel.swift; sourceTree = "<group>"; };
+		BA14D31322DE2F18008C7B4D /* ViewController+tableview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+tableview.swift"; sourceTree = "<group>"; };
+		BA7B659822D794A400A12F52 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BA7B659A22D79C4500A12F52 /* HTTPMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethods.swift; sourceTree = "<group>"; };
 		BA7B659C22D8D42000A12F52 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		BA7B659E22D8D43300A12F52 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		BAEE39F322DEDC10008E3879 /* ViewController+collectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+collectionView.swift"; sourceTree = "<group>"; };
+		BAEE39FA22DEDD69008E3879 /* UIColor+AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+AppTheme.swift"; sourceTree = "<group>"; };
 		BAF4276122D790E500A301CB /* SAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF4276422D790E500A301CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAF4276622D790E500A301CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +79,9 @@
 		BAF4278022D790E700A301CB /* SATUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SATUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF4278422D790E700A301CB /* SATUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATUITests.swift; sourceTree = "<group>"; };
 		BAF4278622D790E700A301CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF51ECE22DC1C8700F0F9AB /* ProductCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionCell.swift; sourceTree = "<group>"; };
+		BAF51ECF22DC1C8700F0F9AB /* ProductCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCollectionCell.xib; sourceTree = "<group>"; };
+		BAF51ED222DC201800F0F9AB /* BrowseProductController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseProductController.swift; sourceTree = "<group>"; };
 		C3EE402BE675AE02046B3C23 /* Pods_SATTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SATTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -107,6 +123,53 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BAEE39F522DEDCCA008E3879 /* ProductDetails */ = {
+			isa = PBXGroup;
+			children = (
+				BA14D31122DE2F18008C7B4D /* ProductDetailController.swift */,
+				BA14D31222DE2F18008C7B4D /* ProductDetailViewModel.swift */,
+			);
+			path = ProductDetails;
+			sourceTree = "<group>";
+		};
+		BAEE39F622DEDCDE008E3879 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				BA14D31322DE2F18008C7B4D /* ViewController+tableview.swift */,
+				BAF4276622D790E500A301CB /* ViewController.swift */,
+				BAEE39F322DEDC10008E3879 /* ViewController+collectionView.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		BAEE39F722DEDD06008E3879 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				BA7B659C22D8D42000A12F52 /* CategoryCollectionViewCell.swift */,
+				BA7B659E22D8D43300A12F52 /* CategoryCollectionViewCell.xib */,
+				BAF51ECE22DC1C8700F0F9AB /* ProductCollectionCell.swift */,
+				BAF51ECF22DC1C8700F0F9AB /* ProductCollectionCell.xib */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		BAEE39F822DEDD26008E3879 /* BrowseProduct */ = {
+			isa = PBXGroup;
+			children = (
+				BAF51ED222DC201800F0F9AB /* BrowseProductController.swift */,
+			);
+			path = BrowseProduct;
+			sourceTree = "<group>";
+		};
+		BAEE39F922DEDD49008E3879 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BA7B659A22D79C4500A12F52 /* HTTPMethods.swift */,
+				BAEE39FA22DEDD69008E3879 /* UIColor+AppTheme.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		BAF4275822D790E500A301CB = {
 			isa = PBXGroup;
 			children = (
@@ -133,15 +196,16 @@
 			isa = PBXGroup;
 			children = (
 				BA7B659822D794A400A12F52 /* Podfile */,
-				BAF4276422D790E500A301CB /* AppDelegate.swift */,
-				BAF4276622D790E500A301CB /* ViewController.swift */,
-				BA7B659C22D8D42000A12F52 /* CategoryCollectionViewCell.swift */,
-				BA7B659E22D8D43300A12F52 /* CategoryCollectionViewCell.xib */,
-				BAF4276822D790E500A301CB /* Main.storyboard */,
-				BAF4276B22D790E700A301CB /* Assets.xcassets */,
-				BAF4276D22D790E700A301CB /* LaunchScreen.storyboard */,
 				BAF4277022D790E700A301CB /* Info.plist */,
-				BA7B659A22D79C4500A12F52 /* HTTPMethods.swift */,
+				BAF4276422D790E500A301CB /* AppDelegate.swift */,
+				BAF4276B22D790E700A301CB /* Assets.xcassets */,
+				BAEE39F822DEDD26008E3879 /* BrowseProduct */,
+				BAEE39F922DEDD49008E3879 /* Common */,
+				BAEE39F722DEDD06008E3879 /* CustomCells */,
+				BAEE39F622DEDCDE008E3879 /* HomeScreen */,
+				BAF4276D22D790E700A301CB /* LaunchScreen.storyboard */,
+				BAF4276822D790E500A301CB /* Main.storyboard */,
+				BAEE39F522DEDCCA008E3879 /* ProductDetails */,
 			);
 			path = SAT;
 			sourceTree = "<group>";
@@ -288,6 +352,7 @@
 				BAF4276F22D790E700A301CB /* LaunchScreen.storyboard in Resources */,
 				BA7B659F22D8D43300A12F52 /* CategoryCollectionViewCell.xib in Resources */,
 				BAF4276C22D790E700A301CB /* Assets.xcassets in Resources */,
+				BAF51ED122DC1C8700F0F9AB /* ProductCollectionCell.xib in Resources */,
 				BA7B659922D794A400A12F52 /* Podfile in Resources */,
 				BAF4276A22D790E500A301CB /* Main.storyboard in Resources */,
 			);
@@ -369,17 +434,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SAT/Pods-SAT-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/DynamicJSON/DynamicJSON.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SAT/Pods-SAT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicJSON.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SAT/Pods-SAT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAT/Pods-SAT-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SAT/Pods-SAT-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -390,9 +454,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA7B659D22D8D42000A12F52 /* CategoryCollectionViewCell.swift in Sources */,
+				BA14D31622DE2F19008C7B4D /* ViewController+tableview.swift in Sources */,
 				BAF4276722D790E500A301CB /* ViewController.swift in Sources */,
 				BAF4276522D790E500A301CB /* AppDelegate.swift in Sources */,
+				BAF51ED022DC1C8700F0F9AB /* ProductCollectionCell.swift in Sources */,
 				BA7B659B22D79C4500A12F52 /* HTTPMethods.swift in Sources */,
+				BA14D31422DE2F19008C7B4D /* ProductDetailController.swift in Sources */,
+				BAEE39F422DEDC11008E3879 /* ViewController+collectionView.swift in Sources */,
+				BAEE39FB22DEDD69008E3879 /* UIColor+AppTheme.swift in Sources */,
+				BAF51ED322DC201800F0F9AB /* BrowseProductController.swift in Sources */,
+				BA14D31522DE2F19008C7B4D /* ProductDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
